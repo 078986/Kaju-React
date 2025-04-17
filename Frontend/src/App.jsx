@@ -1,9 +1,6 @@
+import AppRoutes from "./Routes/AppRoutes";
 function App() {
-  return (
-    <>
-      <h1 className="text-2xl">Kajumatic</h1>
-    </>
-  );
+  return <AppRoutes />;
 }
 
 export default App;
